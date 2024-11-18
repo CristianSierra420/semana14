@@ -85,3 +85,6 @@ private static void imprimirSubgrupos(List<List<String>> subgrupos) {
 }
 
 ```
+**
+Harrison Rengifo, Christian Sierra, Brahian Angel...
+**
