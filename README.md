@@ -76,3 +76,12 @@ private static List<List<String>> generarSubgrupos(List<String> integrantes, int
 
 ** Este método realiza la distribución aleatoria de los integrantes en los subgrupos, Collections.shuffle() baraja la lista de integrantes de manera aleatoria, luego se calcula la cantidad de integrantes de cada subgrupo usando una división entera (integrantes.size() / cantidadSubgrupos) y el resto de esa división (integrantes.size() % cantidadSubgrupos).
 se crean subgrupos en el método list()**
+
+```javascript	
+private static void imprimirSubgrupos(List<List<String>> subgrupos) {
+    for (int i = 0; i < subgrupos.size(); i++) {
+        System.out.printf("Subgrupo %d: %s%n", i + 1, subgrupos.get(i)); // Imprime cada subgrupo
+    }
+}
+
+```
